@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!--Css-->
+    <link rel="stylesheet" href="css/style.css" type="Text/css">
+    <link rel="stylesheet" href="css/login.css" type="Text/css">
+
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+<body>
+ <!--Menu NavBar-->
+ <nav class="navbar navbar-expand-lg py-1 sticky-top navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img class="logo" src="img/logo.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ofertas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contáctanos</a>
+        </li>
+      </ul>
+      <button class="btn btn-info ms-lg-3">Usuarios</button>
+     <a href="login.html" class="nav-link"> <button class="btn btn-primary ms-lg-3">Login</button></a>
+    </div>
+  </div>
+</nav>
+
+
+
+
+    <main class="principal text-center" >
+        <h3 class="text-center"> Ingrese sesión</h2>
+
+        <form class="formulario ">
+            <div class="contenedor__campos">
+
+                <div class="campo">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="7" r="4" />
+                        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                      </svg>
+                    <input type="email" placeholder="Introduza su cuenta">
+                 </div>
+
+                <div class="campo">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-lock" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="5" y="11" width="14" height="10" rx="2" />
+                        <circle cx="12" cy="16" r="1" />
+                        <path d="M8 11v-4a4 4 0 0 1 8 0v4" />
+                      </svg>
+                    <input type="password" placeholder="Introduzca su contraseña">
+
+                 </div>
+
+
+            </div>
+
+            <div class="campo boton">
+                <input type="submit" value="Ingresar">
+           </div>
+
+           <div class="contenedor">
+            <p href="usuarios.html">¿No tienes cuenta?</p><a href="usuarios.html"> Create una</a>
+           </div>
+                
+
+        </form>
+
+
+    </main>
+
+   <footer class="footer">
+ 
+
+      <div class="icono">
+
+          <i class='bx bx-store'></i>
+      </div>
+     
+
+      <div class="icono">
+
+        <i class='bx bxs-shopping-bags'></i>
+        
+      </div>
+
+      <div class="icono">
+
+        <i class='bx bxl-facebook-circle' ></i>
+        
+      </div>
+
+
+
+   </footer>
+
+
+  <!-- Bootstap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
