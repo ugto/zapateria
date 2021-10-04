@@ -7,7 +7,6 @@
     margin:0 auto;
     margin-top: 200px;
     border-radius: 20px;
-    padding: 40px 40px;
 }
 
 .formulario{
@@ -52,6 +51,14 @@ a{
     text-transform: uppercase;
     font-weight: 700;
     color:black;
+}
+
+
+footer{
+    margin-top: 40px;
+    display:flex;
+    justify-content: center;
+    gap:20px;
 }
 
 
