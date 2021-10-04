@@ -14,7 +14,16 @@ body{
 }
 h1,h2,h3,h4,h5,h6, .display-4{
     color:var(--dark);
-    font-weight: 700;
+    font-weight: 900;
+}
+
+.rebaja{
+    text-decoration:line-through;
+    color: red;
+}
+
+p{
+    font-size: 20px;
 }
 
 a{
@@ -41,4 +50,108 @@ img{
     padding: 14px 18px;
     border-width: 2px;
     border-radius: 0;
+}
+
+.hero{
+    background-image: url(../img/inicio2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;   
+    position: relative;
+    z-index: 2;
+}
+
+.hero::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 20, 51, 0.8);
+    z-index: -1;
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.card-effect{
+    box-shadow: var(--box-shadow);
+    background-color: #fff;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+
+.card-effect:hover{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.iconbox{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    color: #fff;
+    font-size:32px;
+    border-radius: 100px;
+    flex: none;
+}
+
+.col-img{
+    background-image: url(../img/cover2.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    
+}
+
+.proyecto{
+    position: relative;
+
+    overflow: hidden;
+}
+
+.proyecto .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 20, 51, 0.8);
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.proyecto img{
+    transition: all 0.4s ease;
+}
+
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
+.proyecto:hover img{
+    transform: scale(1.1);
+}
+
+.precios{
+    font-size: 15px;
+    color: var(--primary);
+}
+
+.precio ul li{
+    margin-top: 8px;
+}
+
+.img_oferta{
+    height: 180px;
+    width: 250px;
 }
