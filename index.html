@@ -1,161 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
+
     <!--Boxicons-->
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css'
+      rel='stylesheet'>
+
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css" type="Text/css">
 
     <title>ZAPATERIA</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Menu NavBar-->
     <nav class="navbar navbar-expand-lg py-1 sticky-top navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img class="logo" src="img/logo.png" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#inicio">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ofertas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contáctanos</a>
-              </li>
-            </ul>
-            <button class="btn btn-info ms-lg-3">Usuarios</button>
-            <button class="btn btn-primary ms-lg-3">Login</button>
-          </div>
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link"aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ofertas">Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contáctanos</a>
+            </li>
+          </ul>
+          <button onclick="" class="btn btn-info ms-lg-3">Usuarios</button>
+          <button class="btn btn-primary ms-lg-3">Login</button>
         </div>
-      </nav>
+      </div>
+    </nav>
     <!--FIN MENU-->
 
     <!--INICIO-->
     <div class="hero vh-100 d-flex align-items-center" id="inicio">
       <div class="container">
-          <div class="row">
-              <div class="col-lg-7 mx-auto text-center">
-                  <h1 class="display-4 text-white">Zapatería Yuriria</h1>
-                  <p class="text-white my-3">De nuestra tienda a tus pies</p>
-              </div>
-          </div>
-      </div>
-  </div>
-   <!--OFERTAS-->
-   <section id="ofertas" class="bg-light">
-    <div class="container-fluid">
-      <div class="row mb-5">
-        <div class="col-md-8 mx-auto text-center">
-          <h6 class="text-primary">Ofertas</h6>
-          <h1>Las mejores Ofertas por liquidación</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur voluptates quod veritatis mollitia dolore recusandae ipsum inventore, iste ullam?</p>
-        </div>
-      </div>  
-      <div class="row">
-        <div class="col-lg-3 col-sm-6">
-          <div class="precios card-effect">
-            <img class="img_oferta" src="img/Oferta1.png" alt="">
-            <hr>
-            <h6>Marca/Modelo</h6>
-            <h4 class="rebaja">$200</h4>
-            <h1>$120</h1>
-            <button class="btn btn-primary">Comprar</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="precios card-effect">
-            <img class="img_oferta" src="img/Oferta2.jpg" alt="">
-            <hr>
-            <h6>Marca/Modelo</h6>
-            <h4 class="rebaja">$200</h4>
-            <h1>$120</h1>
-            <button class="btn btn-primary">Comprar</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="precios card-effect">
-            <img class="img_oferta" src="img/Oferta3.jpg" alt="">
-            <hr>
-            <h6>Marca/Modelo</h6>
-            <h4 class="rebaja">$200</h4>
-            <h1>$120</h1>
-            <button class="btn btn-primary">Comprar</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="precios card-effect">
-            <img class="img_oferta" src="img/Oferta4.jpg" alt="">
-            <hr>
-            <h6>Marca/Modelo</h6>
-            <h4 class="rebaja">$200</h4>
-            <h1>$120</h1>
-            <button class="btn btn-primary">Comprar</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="precios card-effect">
-            <img class="img_oferta" src="img/Oferta5.jpg" alt="">
-            <hr>
-            <h6>Marca/Modelo</h6>
-            <h4 class="rebaja">$200</h4>
-            <h1>$120</h1>
-            <button class="btn btn-primary">Comprar</button>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-sm-6">
-          <div class="precios card-effect">
-            <img class="img_oferta" src="img/Oferta6.jpg" alt="">
-            <hr>
-            <h6>Marca/Modelo</h6>
-            <h4 class="rebaja">$200</h4>
-            <h1>$120</h1>
-            <button class="btn btn-primary">Comprar</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="precios card-effect">
-            <img class="img_oferta" src="img/Oferta7.jpg" alt="">
-            <hr>
-            <h6>Marca/Modelo</h6>
-            <h4 class="rebaja">$200</h4>
-            <h1>$120</h1>
-            <button class="btn btn-primary">Comprar</button>
-          </div>
-        </div>
-        <div class="col-lg-3 col-sm-6">
-          <div class="precios card-effect">
-            <img class="img_oferta" src="img/Oferta8.jpg" alt="">
-            <hr>
-            <h6>Marca/Modelo</h6>
-            <h4 class="rebaja">$200</h4>
-            <h1>$120</h1>
-            <button class="btn btn-primary">Comprar</button>
+        <div class="row">
+          <div class="col-lg-7 mx-auto text-center">
+            <h1 class="display-4 text-white">Zapatería Yuriria</h1>
+            <p class="text-white my-3">De nuestra tienda a tus pies</p>
           </div>
         </div>
       </div>
-
-      
-
     </div>
-  </section>
+    <!--OFERTAS-->
+    <section id="ofertas" class="bg-light">
+      <div class="container-fluid">
+        <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h6 class="text-primary">Ofertas</h6>
+            <h1>Las mejores Ofertas por liquidación</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+              aspernatur voluptates quod veritatis mollitia dolore recusandae
+              ipsum inventore, iste ullam?</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-3 col-sm-6">
+            <div class="precios_ofertas card-effect">
+              <img class="img_oferta" src="img/Oferta1.png" alt="">
+              <hr>
+              <h6>Marca/Modelo</h6>
+              <h4 class="rebaja">$200</h4>
+              <h1>$120</h1>
+              <button class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="precios_ofertas card-effect">
+              <img class="img_oferta" src="img/Oferta2.jpg" alt="">
+              <hr>
+              <h6>Marca/Modelo</h6>
+              <h4 class="rebaja">$200</h4>
+              <h1>$120</h1>
+              <button class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="precios_ofertas card-effect">
+              <img class="img_oferta" src="img/Oferta3.jpg" alt="">
+              <hr>
+              <h6>Marca/Modelo</h6>
+              <h4 class="rebaja">$200</h4>
+              <h1>$120</h1>
+              <button class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="precios_ofertas card-effect">
+              <img class="img_oferta" src="img/Oferta4.jpg" alt="">
+              <hr>
+              <h6>Marca/Modelo</h6>
+              <h4 class="rebaja">$200</h4>
+              <h1>$120</h1>
+              <button class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="precios_ofertas card-effect">
+              <img class="img_oferta" src="img/Oferta5.jpg" alt="">
+              <hr>
+              <h6>Marca/Modelo</h6>
+              <h4 class="rebaja">$200</h4>
+              <h1>$120</h1>
+              <button class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
 
-</body>
+          <div class="col-lg-3 col-sm-6">
+            <div class="precios_ofertas card-effect">
+              <img class="img_oferta" src="img/Oferta6.jpg" alt="">
+              <hr>
+              <h6>Marca/Modelo</h6>
+              <h4 class="rebaja">$200</h4>
+              <h1>$120</h1>
+              <button class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="precios_ofertas card-effect">
+              <img class="img_oferta" src="img/Oferta7.jpg" alt="">
+              <hr>
+              <h6>Marca/Modelo</h6>
+              <h4 class="rebaja">$200</h4>
+              <h1>$120</h1>
+              <button class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="precios_ofertas card-effect">
+              <img class="img_oferta" src="img/Oferta8.jpg" alt="">
+              <hr>
+              <h6>Marca/Modelo</h6>
+              <h4 class="rebaja">$200</h4>
+              <h1>$120</h1>
+              <button class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+    <!--Contactanos-->
+    <section class="row w-100 py-0 bg-light" id="contactanos">
+      <div class="col-lg-8 py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 offset-md-1">
+              <h6 class="text-primary">Contáctanos</h6>
+              <h1>Contáctanos</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                deleniti dolore aliquid, iure dolorem maxime.</p>
+
+              <div class="contactanos d-flex mt-5">
+                <div class="iconbox me-4">
+                  <i class='bx bx-mobile'></i>
+                </div>
+                <div>
+                  <h5>Telefono</h5>
+                  <p>445-100-11-11</p>
+                </div>
+              </div>
+
+              <div class="contactanos d-flex">
+                <div class="iconbox me-2">
+                  <i class='bx bx-mail-send'></i>
+                </div>
+                <div>
+                  <h5>Correo</h5>
+                  <p>zapateria@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contactanos d-flex">
+                <div class="iconbox me-2">
+                  <i class='bx bxl-facebook-circle'></i>
+                </div>
+                <div>
+                  <h5>Facebook</h5>
+                  <p>Zapateria Yuriria</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 py-4">
+        <form class='contacto'>
+            <div><label>Tu Nombre:</label><input type='text' value=''></div>
+            <div><label>Tu Email:</label><input type='text' value=''></div>
+            <div><label>Asunto:</label><input type='text' value=''></div>
+            <div><label>Mensaje:</label><textarea rows='4'></textarea></div>
+            <div><input type='submit' value='Envia Mensaje'></div>
+        </form>
+      </div>
+    </section>
+
+  </body>
 </html>
