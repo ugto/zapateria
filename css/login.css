@@ -1,5 +1,5 @@
 .principal{
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(247,174,157);
     padding: 30px;
     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     text-align: center;
@@ -62,6 +62,23 @@ footer{
 }
 
 
+body{
+    background-image: url("https://scontent.fcyw4-1.fna.fbcdn.net/v/t1.6435-9/149882028_2543382585958041_6179827937550215021_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=973b4a&_nc_ohc=CX0rlXFwOpQAX-Vp7_Z&_nc_ht=scontent.fcyw4-1.fna&oh=0ac2168b80c0ee60919fefb8fa25f357&oe=61816FCD");
+    background-repeat: no-repeat; 
+    background-position: 25%,75%;
+    background-size: 100%;
+}
 
+.icon-tabler{
+    fill: #f5cece;
+}
 
+.icono{
+    size: 20px;
+}
+
+.bx{
+    color: #137e89;
+    border-color:rgba(201, 76, 76, 0.7);
+}
 
