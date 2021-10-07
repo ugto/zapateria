@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!--Css-->
+    <link rel="stylesheet" href="css/style.css" type="Text/css">
+    <link rel="stylesheet" href="css/login.css" type="Text/css">
+
+    <!--Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0&appId=2629106980502220&autoLogAppEvents=1" nonce="Ik2CB6fF"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+</head>
+<body>
+ <!--Menu NavBar-->
+ <!-- <nav class="navbar navbar-expand-lg py-1 sticky-top navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img class="logo" src="img/logo.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item mamada">
+          <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ofertas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contáctanos</a>
+        </li>
+      </ul>
+      <button class="btn btn-info ms-lg-3">Usuarios</button>
+     <a href="login.html" class="nav-link"> <button class="btn btn-primary ms-lg-3">Login</button></a>
+    </div>
+  </div>
+</nav> -->
+
+
+<!-- <div>
+  <div class="icono">
+
+    <i class='bx bx-store bx-lg'></i>
+</div> -->
+
+
+<div class="icono">
+
+  <a href="productos.html"><i class='bx bxs-shopping-bags bx-lg'></i></a>
+  
+</div>
+
+<!-- <div class="icono">
+
+  <i class='bx bxl-facebook-circle bx-lg' ></i>
+  
+</div> -->
+</div>
+
+    <main class="principal text-center" >
+        <h3 class="text-center"> Inicie sesión</h2>
+
+        <form class="formulario ">
+            <div class="contenedor__campos">
+
+                <div class="campo">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="7" r="4" />
+                        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                      </svg>
+                    <input type="email" placeholder="Cuenta">
+                 </div>
+
+                <div class="campo" >
+                    <svg xmlns="http://www.w3.org/2000/svg" style="color: Dodgerblue;" class="icon icon-tabler icon-tabler-lock" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="5" y="11" width="14" height="10" rx="2" />
+                        <circle cx="12" cy="16" r="1" />
+                        <path d="M8 11v-4a4 4 0 0 1 8 0v4" />
+                      </svg>
+                    <input type="password" placeholder="Contraseña">
+
+                 </div>
+
+
+            </div>
+
+            <div class="campo boton">
+                <input type="submit" value="Iniciar sesión"></div>
+                
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    <h5>Mantenerme contectado</h5>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    <h5>No muchas gracias</h5>
+                  </label>
+                </div>
+
+                <span><h5>¿no tienes cuenta?<br><a href="registro usuarios.html">Registrate<br></a></span>
+                <span><a href="#">Recuperar contraseña</a></span>
+
+           <!-- <div class="contenedor">
+            <p href="usuarios.html">¿No tienes cuenta?</p><a href="usuarios.html"> Create una</a>
+           </div> -->
+                
+
+        </form>
+
+
+    </main>
+
+   <footer class="footer">
+ 
+
+      <!-- <div class="icono">
+
+          <i class='bx bx-store bx-lg'></i>
+      </div>
+     
+
+      <div class="icono">
+
+        <i class='bx bxs-shopping-bags bx-lg'></i>
+        
+      </div> -->
+
+      <div class="icono">
+
+        <!-- <i class='bx bxl-facebook-circle bx-lg' ></i> -->
+        <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
+        
+      </div>
+
+
+
+   </footer>
+
+
+  <!-- Bootstap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
