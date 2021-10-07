@@ -2,11 +2,12 @@
 :root{
     --primary:#0d6efd;
     --dark: #21252f;
-    --body:#888;
+    --body: rgb(87, 87, 87);
     --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
     
 }
 
+/* estilos del index */
 body{
     font-family: 'Roboto Slab', serif;
     line-height: 1.7;
@@ -21,12 +22,12 @@ h1,h2,h3,h4,h5,h6, .display-4{
 p{
     font-size: 20px;
 }
-
+/*
 a{
     color:var(--dark);
     text-decoration: none;
 }
-
+*/
 img{
     width: 100%;
 }
@@ -116,9 +117,11 @@ section{
     border: 1px solid #CED5D7;
     border-radius: 6px;
     padding: 45px 45px 20px;
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: white;
     box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+    text-align: center;
+    margin: 0 auto;
 }
 .contacto label{
     display: block;
@@ -152,4 +155,145 @@ section{
     background: #e4f1f6;
     background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
     background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+}
+
+/* Estilos de productos */
+
+.carder-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+
+/* estilos para el login */
+
+a{
+  
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    display:block !important;
+   
+}
+
+a:hover{
+    color:#0d6efd ;
+}
+footer{
+    margin-top: 60px;
+     margin-bottom: 20px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     gap:40px;
+ }
+ 
+ footer img{
+     max-width: 100%;
+ }
+ 
+ 
+ 
+ 
+ .principal_login{
+     background-color: rgba(247,174,157);
+     padding: 30px;
+     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+     text-align: center;
+     max-width:min(90%,500px);
+     height: 400px;
+     margin:0 auto;
+     margin-top: 100px;
+     border-radius: 20px;
+ }
+ 
+ .formulario{
+     margin-top: 20px;
+ }
+ 
+ .campo{
+     margin-bottom:20px;
+     display:flex;
+     
+ }
+ 
+ .campo input{
+     border:none;
+     border-radius:10px;
+     width: 90%;
+     text-transform: uppercase;
+     font-weight: 700px;
+    
+ }
+ 
+ .boton{
+     display:block;
+     border:none;
+ }
+ 
+ .boton input:hover{
+     
+     background-color:#0d6efd ;
+ }
+ 
+ 
+ .opciones p{
+     display:inline;
+ }
+
+.login{
+    font-family: 'Roboto Slab', serif;
+    background-image: url("../img/Fondo_registro.jpg");
+    background-repeat: no-repeat; 
+    background-position: 25%,75%;
+
+}
+
+
+/* Estilos del registro usuarios */
+.rangos{
+  padding: 400px 50px 50px 400px;
+}
+.body_usuarios{
+    font-family: 'Roboto Slab', serif;
+    background-image: url("../img/Fondo_registro.jpg");
+    background-repeat: no-repeat; 
+    background-position: 25%,75%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.display-4{
+    font-size: 2.5rem;
+}
+.btn-registro{
+    background-color: #b4d57b;
+}
+
+
+
+.r_usuarios{
+    width: 500px;
+    
+}
+
+.logoZapateria{
+    height: 80px;
+}
+
+.principal{
+
+    text-align: center;
+    margin-top: 50px !important;
+    margin:0 auto;
+    
+    
+
 }
