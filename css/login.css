@@ -1,11 +1,50 @@
+body{
+    background-image: url("../img/Fondo_registro.jpg");
+    background-repeat: no-repeat; 
+    background-position: 25%,75%;
+
+}
+
+
+
+a{
+  
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    display:block !important;
+   
+}
+
+a:hover{
+    color:#0d6efd ;
+}
+
+
+footer{
+   margin-top: 60px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+footer img{
+    max-width: 100%;
+}
+
+
+
+
 .principal{
     background-color: rgba(247,174,157);
     padding: 30px;
     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     text-align: center;
-    max-width: 500px;
+    max-width:min(90%,500px);
+    height: 400px;
     margin:0 auto;
-    margin-top: 200px;
+    margin-top: 100px;
     border-radius: 20px;
 }
 
@@ -35,50 +74,15 @@
 
 .boton input:hover{
     
-    background-color: white ;
-}
-
-.contenedor{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    background-color:#0d6efd ;
 }
 
 
-a{
-  
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    color:black;
+.opciones p{
+    display:inline;
 }
 
 
-footer{
-    margin-top: 40px;
-    display:flex;
-    justify-content: center;
-    gap:20px;
-}
 
 
-body{
-    background-image: url("https://scontent.fcyw4-1.fna.fbcdn.net/v/t1.6435-9/149882028_2543382585958041_6179827937550215021_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=973b4a&_nc_ohc=CX0rlXFwOpQAX-Vp7_Z&_nc_ht=scontent.fcyw4-1.fna&oh=0ac2168b80c0ee60919fefb8fa25f357&oe=61816FCD");
-    background-repeat: no-repeat; 
-    background-position: 25%,75%;
-    background-size: 100%;
-}
-
-.icon-tabler{
-    fill: #f5cece;
-}
-
-.icono{
-    size: 20px;
-}
-
-.bx{
-    color: #137e89;
-    border-color:rgba(201, 76, 76, 0.7);
-}
 
